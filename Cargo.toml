@@ -1,0 +1,9 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+authors = ["{{authors}}"]
+edition = "2018"
+
+[dependencies]
+vgtk = "0.1"
+pretty_env_logger = "0.4"
