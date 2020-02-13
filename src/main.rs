@@ -28,7 +28,6 @@ impl Component for Model {
         gtk! {
             <Application::new_unwrap(Some("camp.lol.updog"), ApplicationFlags::empty())>
                 <Window border_width=20 on destroy=|_| Message::Exit>
-                    <HeaderBar title="{{project-name}}" show_close_button=true />
                     <Label label="{{project-name}}" />
                 </Window>
             </Application>
