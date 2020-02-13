@@ -26,7 +26,7 @@ impl Component for Model {
 
     fn view(&self) -> VNode<Model> {
         gtk! {
-            <Application::new_unwrap(Some("camp.lol.updog"), ApplicationFlags::empty())>
+            <Application::new_unwrap(Some("com.example.{{project-name}}"), ApplicationFlags::empty())>
                 <Window border_width=20 on destroy=|_| Message::Exit>
                     <Label label="{{project-name}}" />
                 </Window>
